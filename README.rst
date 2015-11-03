@@ -88,6 +88,7 @@ or current ones extended):
     * LoginRadius_ OAuth2 and Application Auth
     * Mailru_ OAuth2
     * MapMyFitness_ OAuth2
+    * MyQnapCloud_ OAuth2 (test bed)
     * Mendeley_ OAuth1 http://mendeley.com
     * Mixcloud_ OAuth2
     * `Moves app`_ OAuth2 https://dev.moves-app.com/docs/authentication
@@ -317,3 +318,4 @@ check `django-social-auth LICENSE`_ for details:
 .. _requests: http://docs.python-requests.org/en/latest/
 .. _PixelPin: http://pixelpin.co.uk
 .. _Zotero: http://www.zotero.org/
+.. _MyQnapCloud: https://account.alpha-myqnapcloud.com/

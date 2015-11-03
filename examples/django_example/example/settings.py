@@ -201,6 +201,7 @@ AUTHENTICATION_BACKENDS = (
     'social.backends.vend.VendOAuth2',
     'social.backends.email.EmailAuth',
     'social.backends.username.UsernameAuth',
+    'social.backends.myqnapcloud.MyQnapCloudOAuth2',
     'django.contrib.auth.backends.ModelBackend',
 )
 
@@ -221,6 +222,9 @@ SOCIAL_AUTH_EMAIL_VALIDATION_FUNCTION = 'example.app.mail.send_validation'
 SOCIAL_AUTH_EMAIL_VALIDATION_URL = '/email-sent/'
 # SOCIAL_AUTH_USERNAME_FORM_URL = '/signup-username'
 SOCIAL_AUTH_USERNAME_FORM_HTML = 'username_signup.html'
+
+SOCIAL_AUTH_MYQNAPCLOUD_KEY = '56026f30ab6dd109fd735aa8'
+SOCIAL_AUTH_MYQNAPCLOUD_SECRET = 'q2mc4k3zCTrv5k2dofMl9eM7HYRNkfw1IJkhX1EkPbpk0dYN'
 
 SOCIAL_AUTH_PIPELINE = (
     'social.pipeline.social_auth.social_details',

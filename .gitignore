@@ -46,3 +46,6 @@ changelog.sh
 \#*\#
 
 .python-version
+
+# Pycharm 
+.idea
