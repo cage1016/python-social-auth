@@ -14,6 +14,7 @@ class MyQnapCloudOAuth2(BaseOAuth2):
     myQnapCloud OAuth authentication backend
     """
 
+    ID_KEY = 'user_id'
     name = 'myqnapcloud'
     API_URL = 'https://account.alpha-myqnapcloud.com/v1.1/'
     AUTHORIZATION_URL = 'https://account.alpha-myqnapcloud.com/oauth/auth'
@@ -21,8 +22,7 @@ class MyQnapCloudOAuth2(BaseOAuth2):
     ACCESS_TOKEN_METHOD = 'POST'
     REDIRECT_STATE = False
     EXTRA_DATA = [
-        ('created_at', 'created_at'),
-        ('user_id', 'user_id')
+        ('created_at', 'created_at')
     ]
 
     def api_url(self):
