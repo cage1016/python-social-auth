@@ -37,7 +37,8 @@ class MyQnapCloudOAuth2(BaseOAuth2):
                 'email': response.get('email') or '',
                 'fullname': fullname,
                 'first_name': first_name,
-                'last_name': last_name}
+                'last_name': last_name,
+                'avatars': response.get('avatars')}
 
     def user_data(self, access_token, *args, **kwargs):
         """Loads user data from service"""
