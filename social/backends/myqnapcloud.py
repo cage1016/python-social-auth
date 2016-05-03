@@ -16,9 +16,9 @@ class MyQnapCloudOAuth2(BaseOAuth2):
 
     ID_KEY = 'user_id'
     name = 'myqnapcloud'
-    API_URL = 'https://account.alpha-myqnapcloud.com/v1.1/'
-    AUTHORIZATION_URL = 'https://account.alpha-myqnapcloud.com/oauth/auth'
-    ACCESS_TOKEN_URL = 'https://account.alpha-myqnapcloud.com/oauth/token'
+    API_URL = 'https://dev-auth.dev-myqnapcloud.com/v1.1/'
+    AUTHORIZATION_URL = 'https://dev-auth.dev-myqnapcloud.com/oauth/auth'
+    ACCESS_TOKEN_URL = 'https://dev-auth.dev-myqnapcloud.com/oauth/token'
     ACCESS_TOKEN_METHOD = 'POST'
     REDIRECT_STATE = False
     EXTRA_DATA = [
